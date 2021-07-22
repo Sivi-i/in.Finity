@@ -9,7 +9,10 @@ export default function Restaurants() {
 			<ImageBackground
 				source={require('../assets/Gradient.png')}
 				style={styles.container}>
-				
+				<Image 
+					source={require('../assets/menu.png')}
+					style={styles.menu}
+				/>
 		   	 
 					
 				<View style={styles.menuContainer}>
@@ -28,9 +31,11 @@ const styles = StyleSheet.create({
 		height: '100%',
         
 	},
-	top: {
-		height: '13%',
-		width: '100%',
+	menu: {
+		width: 688,
+		height: 650,
+		resizeMode: 'cover',
+		marginTop: -10,
 		
 	},
 	

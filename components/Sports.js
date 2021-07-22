@@ -9,7 +9,11 @@ export default function Sports() {
 			<ImageBackground
 				source={require('../assets/Gradient.png')}
 				style={styles.container}>
-				
+				<Image 
+					source={require('../assets/sports.png')}
+					style={styles.sports}
+				/>
+		   	 
 		   	 
 					
 				<View style={styles.menuContainer}>
@@ -28,9 +32,11 @@ const styles = StyleSheet.create({
 		height: '100%',
         
 	},
-	top: {
-		height: '13%',
-		width: '100%',
+	sports: {
+		width: 635,
+		height: 700,
+		resizeMode: 'stretch',
+		marginTop: -10,
 		
 	},
 	

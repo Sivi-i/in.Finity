@@ -29,8 +29,8 @@ export default function BottomNavigation(){
                             source ={require('../assets/events.png')}
                             resizeMode = 'contain'
                             style = {{
-                                width: 55,
-                                height: 55,
+                                width: 50,
+                                height: 50,
                                 tintColor: focused ? '#FFF' : 'white',
                             }}
                         />
@@ -38,6 +38,7 @@ export default function BottomNavigation(){
                     </View>
                 ),
                 title: '',
+                
 
             }}
             />
@@ -51,8 +52,8 @@ export default function BottomNavigation(){
                             source ={require('../assets/restaurants.png')}
                             resizeMode = 'contain'
                             style = {{
-                                width: 50,
-                                height: 50,
+                                width: 45,
+                                height: 45,
                                 tintColor: focused ? '#FFF' : 'white',
                             }}
                         />
@@ -71,8 +72,8 @@ export default function BottomNavigation(){
                             source ={require('../assets/user.png')}
                             resizeMode = 'contain'
                             style = {{
-                                width: 65,
-                                height: 65,
+                                width: 55,
+                                height: 55,
                                 tintColor: focused ? '#FFF' : 'white',
                             }}
                         />
@@ -91,8 +92,8 @@ export default function BottomNavigation(){
                             source ={require('../assets/hotels.png')}
                             resizeMode = 'contain'
                             style = {{
-                                width: 50,
-                                height: 50,
+                                width: 45,
+                                height: 45,
                                 tintColor: focused ? '#FFF' : 'white',
                             }}
                         />

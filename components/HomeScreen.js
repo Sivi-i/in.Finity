@@ -64,7 +64,10 @@ export default function HomeScreen() {
                             </Text>
                     </View>
                     <View style = {styles.calender}><DatePicker></DatePicker></View>
-                    
+                    <Image 
+                        source={require('../assets/eventsList.png')}
+                        style = {styles.eventsList}
+                    />
             </ImageBackground>
         )   
     
@@ -99,7 +102,11 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '10%',
         backgroundColor: 'skyblue',
-       
+        shadowColor: 'black',
+        shadowOpacity: .2,
+        shadowOffset: {
+            height: 5,
+        }
     },
 
     weatherIcon: {
@@ -108,6 +115,13 @@ const styles = StyleSheet.create({
         paddingBottom: 50
         
     },
+
+    eventsList: {
+        resizeMode: 'stretch',
+        width: 450,
+        height: 340,
+        top: 6
+    }
 
     
 })

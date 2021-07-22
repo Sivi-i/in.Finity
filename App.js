@@ -22,7 +22,11 @@ export default function App() {
             name = "TabNavigator"
             component = {BottomNavigation}
             options = {{
-              title: '',
+              title: <Image 
+                    source = {require('./assets/infinitySign.png')}
+                    style= {{ width: 65, height: 45, alignItems: 'center', resizeMode: 'stretch', justifyContent: 'center' }}
+                     />,
+              
               headerStyle:{
                 backgroundColor:'#004B8D'
               }

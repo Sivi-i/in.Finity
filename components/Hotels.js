@@ -9,7 +9,10 @@ export default function Hotels() {
 			<ImageBackground
 				source={require('../assets/Gradient.png')}
 				style={styles.container}>
-				
+				<Image 
+					source={require('../assets/hotelList.png')}
+					style={styles.hotels}
+				/>
 		   	 
 					
 				<View style={styles.menuContainer}>
@@ -28,9 +31,11 @@ const styles = StyleSheet.create({
 		height: '100%',
         
 	},
-	top: {
-		height: '13%',
-		width: '100%',
+	hotels: {
+		width: 465,
+		height: 640,
+		right: 1.5,
+		resizeMode: 'cover',
 		
 	},
 	
